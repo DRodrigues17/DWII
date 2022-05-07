@@ -20,10 +20,8 @@ function filtrarConcluidas() {
 
 function filtrarIncompletas() {
   const tarefa = tarefas.filter((tarefas) => tarefas.concluida === false);
-  let cont = 0;
-  if (tarefas.concluida === false) {
-    cont++;
-  }
+  let cont = tarefa.length;
+
   return cont;
 }
 
